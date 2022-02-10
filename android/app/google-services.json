@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925874016541",
+    "project_id": "text-recognition-app-8bc84",
+    "storage_bucket": "text-recognition-app-8bc84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925874016541:android:930a0828c237a7f88dd1f4",
+        "android_client_info": {
+          "package_name": "com.imagetobarcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925874016541-r0gan9kmfhtlpgr6lfn00j3tf08s0b3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDVMbEYBkAISkT0RnEdP8hbR-OIV3SC1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925874016541-r0gan9kmfhtlpgr6lfn00j3tf08s0b3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
