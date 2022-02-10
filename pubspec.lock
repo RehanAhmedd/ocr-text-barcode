@@ -149,13 +149,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  google_ml_kit:
+  google_ml_vision:
     dependency: "direct main"
     description:
-      name: google_ml_kit
+      name: google_ml_vision
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.3"
+    version: "0.0.7"
   http:
     dependency: transitive
     description:

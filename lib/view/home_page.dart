@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:imagetobarcode/providers/base_model.dart';
@@ -24,25 +26,25 @@ class HomePage extends StatelessWidget {
           const SizedBox(
             height: 25.0,
           ),
-          Consumer<ImageViewModel>(
+          Consumer<ImageViewModel?>(
             builder: (_, imageProvider, __) =>
-                (imageProvider.state == CurrentState.loading)
+                (imageProvider?.state == CurrentState.loading)
                     ? const Center(child: CircularProgressIndicator())
-                    : (imageProvider.state == CurrentState.loaded)
+                    : (imageProvider?.state == CurrentState.loaded)
                         ? Column(
                             children: [
-                              DisplayImage(imageProvider.image.imagePath),
+                              DisplayImage(imageProvider?.image?.imagePath),
                               const SizedBox(
                                 height: 15.0,
                               ),
                               CustomButton(
                                   text: 'Get another image',
-                                  onTap: imageProvider.getImage)
+                                  onTap: imageProvider?.getImage)
                             ],
                           )
                         : CustomButton(
                             text: 'Upload image',
-                            onTap: imageProvider.getImage),
+                            onTap: imageProvider?.getImage),
           ),
           const SizedBox(
             height: 15.0,

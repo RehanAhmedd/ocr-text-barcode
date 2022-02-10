@@ -1,4 +1,6 @@
+import 'dart:io';
+
 class ImageModel {
-  String? imagePath;
+  File imagePath;
   ImageModel({required this.imagePath});
 }

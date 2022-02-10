@@ -23,8 +23,8 @@ class TextViewModel extends BaseModel {
     try {
       final _mlSerive = MlService();
       final ImageModel _image = _imageProvider.image;
-      final String _imagePath = _image.imagePath!;
-      _processedTexts = await _mlSerive.getText(_imagePath);
+      // final String _imagePath = _image.imagePath!;
+      _processedTexts = await _mlSerive.getText(_image.imagePath);
       setState(CurrentState.loaded);
     } catch (e) {
       setState(CurrentState.error);

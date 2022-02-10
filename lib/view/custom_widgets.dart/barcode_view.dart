@@ -31,7 +31,7 @@ class BarcodeView extends StatelessWidget {
 
     String text = '';
     for (var item in textProvider!.processedTexts!) {
-      text = text + '\n' + item.block.toString();
+      text = text + '\n' + item.text.toString();
     }
 
     pdf.addPage(
