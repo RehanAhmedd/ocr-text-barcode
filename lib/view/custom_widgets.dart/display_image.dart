@@ -12,8 +12,8 @@ class DisplayImage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
       child: Image.file(
         file,
-        width: 350,
-        height: 300,
+        width: 400,
+        height: 380,
         fit: BoxFit.scaleDown,
       ),
     );

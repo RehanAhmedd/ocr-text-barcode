@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
 import 'package:google_ml_vision/google_ml_vision.dart';
 import 'package:imagetobarcode/model/data_layer.dart';
 

@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       providers: providers,
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Image to barcode',
+          title: 'OCR Text barcode',
           theme: ThemeData(
             primarySwatch: Colors.blueGrey,
           ),
